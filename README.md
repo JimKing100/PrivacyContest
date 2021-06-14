@@ -12,7 +12,7 @@ Submissions are assessed based on:
 
 The main dataset includes quantitative and categorical information about 16 million taxi trips in Chicago, including time, distance, location, payment, and service provider. The data includes several features along with time segments (trip_day_of_week and trip_hour_of_day), map segments (pickup_community_area and dropoff_community_area), and simulated individuals (taxi_id). Solutions in this sprint produce a list of records (i.e. synthetic data) with corresponding time and map segments.
 
-### Brief Description
+### Brief Algorithm Description
 
 The main idea is to combine similar features in the pre-processing phase, create privatized histograms of the features, then during the post-processing phase create the simulated data. The individual taxis are created by simply counting the number of distinct taxi_ids, adding noise and then iterating through the privatized count. The number of trips per taxi_id is calculated by counting the distinct taxi_ids with k number of trips (k = 1-200) and adding noise to each bin.
 
