@@ -31,12 +31,21 @@ A proximity dictionary is created containing a trip seconds estimate for each pc
 
 #### src
 
-- globals.py
-- main.py
-- simulate_row.py
-- utilities.py
+- globals.py - global variables used to improve speed.
+- main.py - the main program
+- simulate_row.py - creates a row of simulated data
+- utilities.py - a collection of eight functions for pre-processing, population (bin) creation and weight creation
 
 #### other files
 
-- writeup.pdf
-- requirements.txt
+- writeup.pdf - contains documentation and explanation for the algorithm including a mathematical privacy proof.
+- requirements.txt - a pip dependency file
+
+### Setup and Running the Code
+
+The environment can be setup using requirements.txt or simply use python 3.8.5+ with the following packages:
+pandas, numpy, json, pathlib, loguru, random.
+
+Assuming you have the data and parameters files (ground_truth.csv and parameters.json) used in the competition, set the paths in the first 21 lines of code in main.py to correspond to your configuration.
+
+Run the code: python main.py
