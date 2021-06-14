@@ -10,7 +10,7 @@ Submissions are assessed based on:
 
 ###  The Data
 
-The main dataset includes quantitative and categorical information about 16 million taxi trips in Chicago, including time, distance, location, payment, and service provider. The data includes several features along with time segments (trip_day_of_week and trip_hour_of_day), map segments (pickup_community_area and dropoff_community_area), and simulated individuals (taxi_id). Solutions in this sprint will need to produce a list of records (i.e. synthetic data) with corresponding time and map segments.
+The main dataset includes quantitative and categorical information about 16 million taxi trips in Chicago, including time, distance, location, payment, and service provider. The data includes several features along with time segments (trip_day_of_week and trip_hour_of_day), map segments (pickup_community_area and dropoff_community_area), and simulated individuals (taxi_id). Solutions in this sprint produce a list of records (i.e. synthetic data) with corresponding time and map segments.
 
 ### Brief Description
 
