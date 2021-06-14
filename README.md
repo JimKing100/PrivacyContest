@@ -38,7 +38,7 @@ A proximity dictionary is created containing a trip seconds estimate for each pc
 
 #### other files
 
-- writeup.pdf - contains documentation and explanation for the algorithm including a mathematical privacy proof.
+- writeup.pdf - contains documentation and an explanation for the algorithm including a mathematical privacy proof.
 - requirements.txt - a pip dependency file
 
 ### Setup and Running the Code
